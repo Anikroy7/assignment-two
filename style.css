@@ -8,18 +8,20 @@ body{
 main{
     display: flex;
     justify-content:center ;
+    flex-direction: column;
 }
 .container{
     width: 970px; 
     background-color: white ;
+    padding: 30px;
 
 }
+
 /*----- style for first influencer section---- */
 
 .influencer{
     display: flex;
-    margin: 20px;
-    padding: 15px;
+    
 }
 .camera img{
     Width: 340px;
@@ -32,6 +34,7 @@ main{
 .influencer-details p{
     margin-bottom: 30px;
    
+
 }
 
 .button{
@@ -48,3 +51,4 @@ main{
 .button i{
     margin: 10px;
 }
+/* -------first influencer section style ended ---*/
