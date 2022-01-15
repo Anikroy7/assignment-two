@@ -7,13 +7,16 @@ body{
 }
 main{
     display: flex;
-    justify-content:center ;
+    align-items: center;
     flex-direction: column;
+     
 }
 .container{
-    width: 970px; 
+    
     background-color: white ;
     padding: 30px;
+    width: 970px;
+    margin-right: 20px;
 
 }
 
@@ -25,14 +28,20 @@ main{
 }
 .camera img{
     Width: 340px;
-    height: 314px
+    height: 314px;
+    margin-right: 50px;
+}
+.influencer-details{
+    margin-right: 20px;
 }
 .influencer-details h1{
     font-size:52px;
     font-weight: 700;
+  
 }
 .influencer-details p{
     margin-bottom: 30px;
+    font-size: 16px;
    
 
 }
@@ -51,4 +60,69 @@ main{
 .button i{
     margin: 10px;
 }
+hr{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
 /* -------first influencer section style ended ---*/
+
+
+ /*--------------------
+ 
+        popular collection section style start 
+
+ -------------------------------------- */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    margin-right: 10px;
+}
+.collection{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border-radius: 5px;
+    height: 476px;
+    width: 290px;
+    left: 196px;
+
+
+}
+ .collection-title{
+
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 28px;
+ }
+
+ .product-image img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin-right: 20px;
+ }
+ .fa-star.color{
+     color: #FB8200;
+ }
+.fa-star-half-alt{
+    color: #FB8200;
+}
+span{
+    margin: 5px;
+}
+.last-button{
+    background-color: #ffffff;
+    color :rgb(253, 12, 12);
+    padding: 10px;
+    border-radius: 15px;
+    /* text-align: end; */
+} 
+.last-button a{
+    text-decoration: none;
+    color: rgb(248, 1, 1);
+    margin: 5px;
+}
+ .see-more{
+    text-align: end;
+}
