@@ -112,7 +112,7 @@ span{
     margin: 5px;
 }
 .last-button{
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
     color :rgb(253, 12, 12);
     padding: 10px;
     border-radius: 15px;
@@ -125,4 +125,23 @@ span{
 }
  .see-more{
     text-align: end;
+}
+
+.footer{
+    background-color: #0A0826;
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+}
+
+.footer h3 {
+ font-size: 24px;
+ color: rgba(255, 255, 255, 0.959);
+ letter-spacing: 2px;
+ 
+}
+.footer p{
+    font-size: 14px;
+}
+.fab{
+    margin: 10px;
 }
