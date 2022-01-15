@@ -30,7 +30,20 @@ main{
     Width: 340px;
     height: 314px;
     margin-right: 50px;
+    animation-name:camera;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
 }
+@keyframes camera {
+    from { Width: 340px;}
+      to  {width: 354px;}
+    from { height: 314px;}
+      to  {height: 330px;}
+  }
+
+
+
 .influencer-details{
     margin-right: 20px;
 }
@@ -126,6 +139,14 @@ span{
  .see-more{
     text-align: end;
 }
+/*---------------------------------------
+ popular collection section finish here 
+ ---------------------------------------*/
+
+
+
+/*--------- footer section start ------*/
+
 
 .footer{
     background-color: #0A0826;
@@ -145,3 +166,4 @@ span{
 .fab{
     margin: 10px;
 }
+/* footer section ended */
