@@ -1,3 +1,50 @@
-h1{
-    color: rgb(173, 32, 32);
+/* font-family and utilities */
+body{
+    background-color:  #AAAAAA;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+
+}
+main{
+    display: flex;
+    justify-content:center ;
+}
+.container{
+    width: 970px; 
+    background-color: white ;
+
+}
+/*----- style for first influencer section---- */
+
+.influencer{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+}
+.camera img{
+    Width: 340px;
+    height: 314px
+}
+.influencer-details h1{
+    font-size:52px;
+    font-weight: 700;
+}
+.influencer-details p{
+    margin-bottom: 30px;
+   
+}
+
+.button{
+    background-color: #E02C6D;
+    color :white;
+    padding: 10px;
+    border-radius: 15px;
+ 
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button i{
+    margin: 10px;
 }
