@@ -198,3 +198,46 @@ span{
     margin: 10px;
 }
 /* footer section ended */
+
+/* ------------------media quaries--------------- */
+
+
+/* -------------mobile screen ---------------*/
+
+
+@media only screen and (min-width: 688px){
+
+
+    .container{
+        width:100%;
+    }
+    .influencer,.blog-details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+ /*-------------- 
+       tablet screen 
+ -----------------------*/
+ @media only screen and (max-width: 688px)and(max-width:992px){
+
+
+    .container{
+        width:100%;
+    }
+    .influencer,.blog-details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+ }
